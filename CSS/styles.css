@@ -1,0 +1,287 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+header{
+    margin:0px;
+}
+h1{
+    margin:0px;
+}
+
+
+
+
+/* header part style */
+.header-container{
+    background-color: crimson;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    border-bottom: 2px solid white;
+    position: fixed;
+    width:100vw;
+    vertical-align: middle;
+    z-index: 4;
+}
+.brandings{
+
+    color:white;
+}
+.brandings img{
+    width:auto;
+    height:8vh;
+}
+.nav-bar{
+    margin-top: 0.4em;
+}
+.nav-bar ul{
+list-style-type: none;
+vertical-align: middle;
+
+}
+.nav-bar ul li{
+    display: inline;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.nav-bar ul li a:hover{
+    color:crimson;
+    padding: 1em;
+  background-color: white;
+  border-radius: 15px;
+}
+.channel{
+background-color:crimson;
+color: white;
+border: 2px solid white;
+border-radius: 15px;
+height: 6vh;
+margin-top: 0.6em;
+}
+   
+
+.videoheader {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 13vh;
+  }
+  
+  .videoheader video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .videoheader .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .videoheader .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    .videoheader {
+      background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
+    }
+    .videoheader video {
+      display: none;
+    }
+  }
+.hero-unit-container{
+    background: url("../images/pexels-negative-space-160107.jpg");
+    height:50vh;
+    background-size: cover ;
+    text-align: center;
+    
+}
+.hero-unit-mask{
+    background-color:rgb(0, 0, 0,0.4);
+    height: 50vh;
+}
+
+.hero-unit-mask h1{
+    margin: 0%;
+    padding-top:25vh;
+    font-size: 5vh;
+    color: white
+}
+.hero-unit-mask a{
+    margin: 10px auto;
+    padding-top:2em;
+    text-decoration: none;
+    background-color:crimson;
+    color:white;
+    border-radius: 5px;
+    display:block;
+    width:20vw;
+    padding:5px;
+}
+.hero-unit-mask a:hover{
+    background-color:white;
+    color: crimson;
+}
+
+.paper-flex-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+
+}
+.paper-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+
+    
+}
+.paper img{
+    height:200px;
+    width:200px;
+}
+
+.paper{
+    background-color: white;
+    box-shadow: 5px 5px 20px slategray;
+    padding: 0px 25px;
+    color: #444;
+}
+
+.section-1{
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background: url('../images/pexels-negative-space-160107.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    
+}
+.section-1 h2{
+    margin: 0px;
+    padding-top: 15vh;
+    padding-bottom:1em;
+}
+.section-1 img{
+    height: 40vh;
+    width: auto;
+    border-radius: 10px;
+}
+.section-1 p{
+    font-size: 1.2em;
+}
+.section-1 a{
+    display:block;
+    text-decoration: none;
+    background-color: coral;
+    color:white;
+    padding:1em;
+    border-radius: 5px;
+    width: 10vw;
+    align-items: center;
+    margin: 1em auto;
+}
+.section-1 a:hover{
+    background-color: white;
+    color: coral;
+}
+
+
+.section-2{
+    height: 90vh;
+    text-align: center;
+    color: white;
+    background: url('../images/pexels-negative-space-160107.jpg');
+    background-size: cover ;
+}
+.section-2 h2{
+    margin: 0px;
+    padding-top: 12vh;
+    padding-bottom:1em;
+}
+.section-2 img{
+    height: 40vh;
+    width: auto;
+    border-radius: 10px;
+}
+.section-2 p{
+    font-size: 1.2em;
+}
+.section-2 a{
+    display:block;
+    text-decoration: none;
+    background-color: coral;
+    color:white;
+    padding:1em;
+    border-radius: 5px;
+    width: 10vw;
+    align-items: center;
+    margin: 1em auto;
+}
+.section-2 a:hover{
+    background-color: white;
+    color: coral;
+}
+
+
+footer{
+    height: 65px;
+    background-color: crimson;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid white;
+}
+
+footer p{
+    margin:0px;
+}
+
+.footer-nav-bar ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.footer-nav-bar ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+.footer-nav-bar ul li a:hover{
+    color:coral;
+}
+  
+  
