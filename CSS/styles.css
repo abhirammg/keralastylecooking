@@ -129,7 +129,6 @@ margin-top: 0.6em;
     padding:5px;
     min-width: 200px;
 }
-  
   @media (pointer: coarse) and (hover: none) {
     .videoheader {
       background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
@@ -177,7 +176,6 @@ margin-top: 0.6em;
     flex-direction: column;
     text-align: center;
     width:100%;
-
 }
 .paper-flex-row{
     display: flex;
