@@ -105,7 +105,7 @@ margin-top: 0.6em;
     opacity: 0.5;
     z-index: 1;
   }
-  .videoheader a{
+  .youtubelink{
     margin: 10px auto;
     padding-top:2em;
     text-decoration: none;
@@ -117,7 +117,7 @@ margin-top: 0.6em;
     padding:5px;
     min-width: 200px;
 }
-.videoheader a:hover{
+.youtubelink a:hover{
     margin: 10px auto;
     padding-top:2em;
     text-decoration: none;
