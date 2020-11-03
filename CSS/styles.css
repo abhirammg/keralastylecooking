@@ -103,7 +103,7 @@ margin-top: 0.6em;
     opacity: 0.5;
     z-index: 1;
   }
-  .youtubelink{
+  /* .youtubelink a{
     margin: 10px auto;
     padding-top:2em;
     text-decoration: none;
@@ -116,17 +116,11 @@ margin-top: 0.6em;
     min-width: 200px;
 }
 .youtubelink a:hover{
-    margin: 10px auto;
-    padding-top:2em;
+    display:block;
     text-decoration: none;
     background-color:white;
     color:crimson;
-    border-radius: 5px;
-    display:block;
-    width:20vw;
-    padding:5px;
-    min-width: 200px;
-}
+} */
   @media (pointer: coarse) and (hover: none) {
     .videoheader {
       background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
@@ -135,7 +129,10 @@ margin-top: 0.6em;
       display: none;
     }
   }
-.hero-unit-container{
+
+
+
+  .hero-unit-container{
     background: url("../images/pexels-negative-space-160107.jpg");
     height:50vh;
     background-size: cover ;
@@ -168,6 +165,7 @@ margin-top: 0.6em;
     background-color:white;
     color: crimson;
 }
+
 
 .paper-flex-container{
     display: flex;
@@ -280,7 +278,7 @@ footer{
 }
 
 footer p{
-    margin:0px;
+    margin-bottom: 1emlive;
 }
 
 .footer-nav-bar ul{
