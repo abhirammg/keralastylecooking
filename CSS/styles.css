@@ -103,7 +103,7 @@ margin-top: 0.6em;
     opacity: 0.5;
     z-index: 1;
   }
-  /* .youtubelink a{
+ .videoheader a {
     margin: 10px auto;
     padding-top:2em;
     text-decoration: none;
@@ -115,12 +115,12 @@ margin-top: 0.6em;
     padding:5px;
     min-width: 200px;
 }
-.youtubelink a:hover{
+.videoheader a:hover{
     display:block;
     text-decoration: none;
     background-color:white;
     color:crimson;
-} */
+} 
   @media (pointer: coarse) and (hover: none) {
     .videoheader {
       background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
