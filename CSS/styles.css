@@ -117,6 +117,18 @@ margin-top: 0.6em;
     padding:5px;
     min-width: 200px;
 }
+.videoheader a:hover{
+    margin: 10px auto;
+    padding-top:2em;
+    text-decoration: none;
+    background-color:white;
+    color:crimson;
+    border-radius: 5px;
+    display:block;
+    width:20vw;
+    padding:5px;
+    min-width: 200px;
+}
   
   @media (pointer: coarse) and (hover: none) {
     .videoheader {
