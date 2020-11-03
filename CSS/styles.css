@@ -1,21 +1,17 @@
-body{
+{
     font-family:Arial, Helvetica, sans-serif;
     margin:0px;
 }
-header{
-    margin:0px;
-}
+
 h1{
     margin:0px;
+    font-size: 3em;
 }
-
-
-
 
 /* header part style */
 .header-container{
     background-color: crimson;
-    height: 13vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -27,7 +23,7 @@ h1{
     z-index: 4;
 }
 .brandings{
-
+    padding-left: 1em;
     color:white;
 }
 .brandings img{
@@ -58,6 +54,7 @@ vertical-align: middle;
   border-radius: 15px;
 }
 .channel{
+    padding-right: 1em;
 background-color:crimson;
 color: white;
 border: 2px solid white;
@@ -108,6 +105,17 @@ margin-top: 0.6em;
     opacity: 0.5;
     z-index: 1;
   }
+  .videoheader a{
+    margin: 10px auto;
+    padding-top:2em;
+    text-decoration: none;
+    background-color:crimson;
+    color:white;
+    border-radius: 5px;
+    display:block;
+    width:20vw;
+    padding:5px;
+}
   
   @media (pointer: coarse) and (hover: none) {
     .videoheader {
@@ -155,7 +163,7 @@ margin-top: 0.6em;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 25px;
+    width:100%;
 
 }
 .paper-flex-row{
@@ -255,7 +263,7 @@ margin-top: 0.6em;
 
 
 footer{
-    height: 65px;
+    height: auto;
     background-color: crimson;
     text-align: center;
     padding: 1em;
@@ -269,6 +277,7 @@ footer p{
 .footer-nav-bar ul{
     list-style-type: none;
     padding-left: 0px;
+    margin:0px
 }
 .footer-nav-bar ul li{
     display: inline-block;
@@ -278,10 +287,9 @@ footer p{
     text-decoration: none;
     color: white;
     padding-right: 1em;
-    padding-bottom: 1em;
 }
 .footer-nav-bar ul li a:hover{
-    color:coral;
+    border-bottom: white solid 1px;
 }
   
   
