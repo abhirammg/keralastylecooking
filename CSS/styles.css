@@ -23,7 +23,7 @@ h1{
     z-index: 4;
 }
 .brandings{
-    padding-left: 1em;
+    /* padding-left: 1em; */
     color:white;
 }
 .brandings img{
@@ -54,7 +54,7 @@ vertical-align: middle;
   border-radius: 15px;
 }
 .channel{
-    padding-right: 1em;
+    /* padding-right: 1em; */
 background-color:crimson;
 color: white;
 border: 2px solid white;
@@ -115,6 +115,7 @@ margin-top: 0.6em;
     display:block;
     width:20vw;
     padding:5px;
+    min-width: 50px;
 }
   
   @media (pointer: coarse) and (hover: none) {
