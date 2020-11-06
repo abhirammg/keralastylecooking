@@ -21,6 +21,11 @@ h1{
     vertical-align: middle;
     z-index: 4;
 }
+@media screen and (min-width: 600px) {
+    .header-container {
+        justify-content: space-around;
+    }
+  }
 .brandings{
     color:white;
 }
