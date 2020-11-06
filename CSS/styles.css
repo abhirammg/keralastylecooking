@@ -10,11 +10,10 @@ h1{
 
 /* header part style */
 .header-container{
-    background-color: crimson;
-    height: auto;
+    background-color: crimson;  
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1em;
     border-bottom: 2px solid white;
     position: fixed;
