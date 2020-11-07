@@ -320,7 +320,7 @@ footer{
     height: auto;
     background-color: crimson;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0em;
     border-top: 2px solid white;
 }
 
@@ -345,5 +345,10 @@ footer p{
 .footer-nav-bar ul li a:hover{
     border-bottom: white solid 1px;
 }
+
+
+
+
+
   
   
