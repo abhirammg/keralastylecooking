@@ -8,6 +8,10 @@ h1{
     font-size: 3em;
 }
 
+main{
+    background-color: lightyellow;
+}
+
 /* header part style */
 .header-container{
     background-color: crimson;  
@@ -194,7 +198,7 @@ margin-top: 0.6em;
 
 .paper{
     background-color: white;
-    box-shadow: 5px 5px 20px slategray;
+    box-shadow: 2.5px 2.5px 10px slategray;
     padding: 1em 1em;
     color: #444; 
     display:block; 
@@ -220,7 +224,7 @@ margin-top: 0.6em;
 
     .paper{
         background-color: white;
-        box-shadow: 5px 5px 20px slategray;
+        box-shadow: 2.5px 2.5px 10px slategray;
         padding: 1em 1em;
         color: #444; 
         display:block; 
