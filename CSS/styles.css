@@ -394,12 +394,9 @@ footer p {
     font-size: smaller;
 }
 
-.footer-nav-bar ul li a:hover {
-    color: crimson;
-}
+.footer-nav-bar ul li a:hover {}
 
 .footer-nav-bar ul li:hover {
     /* border-bottom: white solid 1px; */
-    background-color: white;
-    color: crimson;
+    background-color: #1b1f22;
 }
