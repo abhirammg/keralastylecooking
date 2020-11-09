@@ -23,7 +23,7 @@ main {
     border-bottom: 2px solid white;
     position: fixed;
     width: 100vw;
-    vertical-align: middle;
+    align-items: center;
     z-index: 4;
 }
 
@@ -75,16 +75,11 @@ main {
     border: 2px solid white;
     border-radius: 7.5px;
     height: 6vh;
-    margin-top: 0.6em;
 }
 
 #myButton:hover {
     background-color: white;
     color: crimson;
-    border: 2px solid white;
-    /* border-radius: 15px; */
-    height: 6vh;
-    margin-top: 0.6em;
 }
 
 .videoheader {
