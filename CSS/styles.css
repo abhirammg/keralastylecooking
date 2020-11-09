@@ -358,14 +358,16 @@ h4 {
 footer {
     width: 100%;
     height: auto;
-    background-color: crimson;
+    background-color: #26272b;
     text-align: center;
-    padding: 1em 0em;
+    padding-top: 1em;
     border-top: 2px solid white;
 }
 
 footer p {
-    margin-bottom: 1em;
+    padding-bottom: 1em;
+    color: darkgrey;
+    font-size: smaller;
 }
 
 .footer-nav-bar ul {
@@ -389,6 +391,7 @@ footer p {
     text-decoration: none;
     color: white;
     padding: 0.25em;
+    font-size: smaller;
 }
 
 .footer-nav-bar ul li a:hover {
