@@ -197,7 +197,7 @@ main {
 .paper-flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -208,19 +208,20 @@ main {
     background-color: white;
     box-shadow: 2.5px 2.5px 10px slategray;
     padding: 0.5em 0.5em;
-    margin: 0.5em auto;
+    /* margin: 0.5em auto; */
     display: block;
     position: relative;
+    margin-bottom: 1em;
 }
 
-.paper-box p,
-h5,
+.paper-box h5,
 h6,
 h4 {
-    margin-left: 0.25em;
+    margin-left: 0.5em;
 }
 
 .paper-box p {
+    margin-left: 0.65em;
     margin-bottom: 0.5em;
 }
 
@@ -252,13 +253,13 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-    .paper-row {
+    .paper-box {
         padding: 0.5em 0em;
     }
     .paper {
         display: block;
         margin: 0.5em auto;
-        width: 98vw;
+        width: 100vw;
         height: 56.25vw;
         position: relative;
     }
@@ -355,6 +356,7 @@ h4 {
 }
 
 footer {
+    width: 100%;
     height: auto;
     background-color: crimson;
     text-align: center;
@@ -363,26 +365,38 @@ footer {
 }
 
 footer p {
-    margin-bottom: 1emlive;
+    margin-bottom: 1em;
 }
 
 .footer-nav-bar ul {
     list-style-type: none;
     padding-left: 0px;
-    margin: 0px
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer-nav-bar ul li {
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
+    margin: 0px 0.5em;
+    border-radius: 10px;
+    padding: 0.25em;
 }
 
 .footer-nav-bar ul li a {
     text-decoration: none;
     color: white;
-    padding-right: 1em;
+    padding: 0.25em;
 }
 
 .footer-nav-bar ul li a:hover {
-    border-bottom: white solid 1px;
+    color: crimson;
+}
+
+.footer-nav-bar ul li:hover {
+    /* border-bottom: white solid 1px; */
+    background-color: white;
+    color: crimson;
 }
