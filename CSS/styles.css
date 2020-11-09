@@ -1,75 +1,91 @@
-{
-    font-family:Arial, Helvetica, sans-serif;
-    margin:0px;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    margin:0px;
+h1 {
+    margin: 0px;
     font-size: 3em;
 }
 
-main{
+main {
     background-color: lightyellow;
 }
 
+
 /* header part style */
-.header-container{
-    background-color: crimson;  
+
+.header-container {
+    background-color: crimson;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1em;
     border-bottom: 2px solid white;
     position: fixed;
-    width:100vw;
+    width: 100vw;
     vertical-align: middle;
     z-index: 4;
 }
+
 @media screen and (min-width: 600px) {
     .header-container {
         justify-content: space-around;
     }
-  }
+}
 
-.brandings{
-    color:white;
+.brandings {
+    color: white;
 }
-.brandings img{
-    width:auto;
-    height:8vh;
+
+.brandings img {
+    width: auto;
+    height: 8vh;
 }
-.nav-bar{
+
+.nav-bar {
     margin-top: 0.4em;
 }
-.nav-bar ul{
-list-style-type: none;
-vertical-align: middle;
 
+.nav-bar ul {
+    list-style-type: none;
+    vertical-align: middle;
 }
-.nav-bar ul li{
+
+.nav-bar ul li {
     display: inline;
 }
-.nav-bar ul li a{
+
+.nav-bar ul li a {
     text-decoration: none;
     color: white;
     padding-left: 1em;
     padding-right: 1em;
 }
-.nav-bar ul li a:hover{
-    color:crimson;
+
+.nav-bar ul li a:hover {
+    color: crimson;
     padding: 1em;
-  background-color: white;
-  border-radius: 15px;
+    background-color: white;
+    border-radius: 15px;
 }
-.channel{
-background-color:crimson;
-color: white;
-border: 2px solid white;
-border-radius: 15px;
-height: 6vh;
-margin-top: 0.6em;
+
+#myButton {
+    background-color: crimson;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7.5px;
+    height: 6vh;
+    margin-top: 0.6em;
 }
-   
+
+#myButton:hover {
+    background-color: white;
+    color: crimson;
+    border: 2px solid white;
+    /* border-radius: 15px; */
+    height: 6vh;
+    margin-top: 0.6em;
+}
 
 .videoheader {
     position: relative;
@@ -80,9 +96,9 @@ margin-top: 0.6em;
     overflow: hidden;
     text-align: center;
     padding-top: 13vh;
-  }
-  
-  .videoheader video {
+}
+
+.videoheader video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -95,14 +111,14 @@ margin-top: 0.6em;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-  }
-  
-  .videoheader .container {
+}
+
+.videoheader .container {
     position: relative;
     z-index: 2;
-  }
-  
-  .videoheader .overlay {
+}
+
+.videoheader .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -111,216 +127,234 @@ margin-top: 0.6em;
     background-color: black;
     opacity: 0.5;
     z-index: 1;
-  }
- .videoheader a {
+}
+
+.videoheader a {
     margin: 10px auto;
-    padding-top:2em;
+    padding-top: 2em;
     text-decoration: none;
-    background-color:crimson;
-    color:white;
+    background-color: crimson;
+    color: white;
     border-radius: 5px;
-    display:block;
-    width:20vw;
-    padding:5px;
+    display: block;
+    width: 20vw;
+    padding: 5px;
     min-width: 200px;
 }
-.videoheader a:hover{
-    display:block;
+
+.videoheader a:hover {
+    display: block;
     text-decoration: none;
-    background-color:white;
-    color:crimson;
-} 
-  @media (pointer: coarse) and (hover: none) {
-    .videoheader {
-      background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
-    }
-    .videoheader video {
-      display: none;
-    }
-  }
-
-
-
-  .hero-unit-container{
-    background: url("../images/pexels-negative-space-160107.jpg");
-    height:50vh;
-    background-size: cover ;
-    text-align: center;
-    
-}
-.hero-unit-mask{
-    background-color:rgb(0, 0, 0,0.4);
-    height: 50vh;
-}
-
-.hero-unit-mask h1{
-    margin: 0%;
-    padding-top:25vh;
-    font-size: 5vh;
-    color: white
-}
-.hero-unit-mask a{
-    margin: 10px auto;
-    padding-top:2em;
-    text-decoration: none;
-    background-color:crimson;
-    color:white;
-    border-radius: 5px;
-    display:block;
-    width:20vw;
-    padding:5px;
-}
-.hero-unit-mask a:hover{
-    background-color:white;
+    background-color: white;
     color: crimson;
 }
 
+@media (pointer: coarse) and (hover: none) {
+    .videoheader {
+        background: url('..videos/Veggies.mp4') black no-repeat center center scroll;
+    }
+    .videoheader video {
+        display: none;
+    }
+}
 
-.paper-flex-container{
+.hero-unit-container {
+    background: url("../images/pexels-negative-space-160107.jpg");
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-unit-mask {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 50vh;
+}
+
+.hero-unit-mask h1 {
+    margin: 0%;
+    padding-top: 25vh;
+    font-size: 5vh;
+    color: white
+}
+
+.hero-unit-mask a {
+    margin: 10px auto;
+    padding-top: 2em;
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 20vw;
+    padding: 5px;
+}
+
+.hero-unit-mask a:hover {
+    background-color: white;
+    color: crimson;
+}
+
+.paper-flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
 }
-/* .paper-flex-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 25px;
-    flex-shrink: unset;
-    flex-wrap: wrap;
-} */
+
+.paper-box {
+    /* display: relative;
+    padding: 5px; */
+    background-color: white;
+    box-shadow: 2.5px 2.5px 10px slategray;
+    padding: 0.5em 0.5em;
+    margin: 0.5em auto;
+    display: block;
+    position: relative;
+}
+
+.paper-box p,
+h5,
+h6,
+h4 {
+    margin-left: 0.25em;
+}
+
+.paper-box p {
+    margin-bottom: 0.5em;
+}
+
+
 /* .paper img{
     height:200px;
     width:200px;
 } */
 
-.paper{
-    background-color: white;
-    box-shadow: 2.5px 2.5px 10px slategray;
-    padding: 1em 1em;
-    color: #444; 
-    display:block; 
-    margin:  0.5em auto; 
-    width:45vw; 
-    height:25.3vw; 
+.paper {
+    display: block;
+    width: 45vw;
+    height: 25.3vw;
     position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
 }
-.paper iframe{
+
+.paper iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    padding:0.25em;
-
 }
+
 @media (max-width: 800px) {
     .paper-flex-container {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-
-    .paper{
-        background-color: white;
-        box-shadow: 2.5px 2.5px 10px slategray;
-        padding: 1em 1em;
-        color: #444; 
-        display:block; 
-        margin:  0.5em auto; 
-        width:100vw; 
-        height:56.25vw; 
+    .paper-row {
+        padding: 0.5em 0em;
+    }
+    .paper {
+        display: block;
+        margin: 0.5em auto;
+        width: 98vw;
+        height: 56.25vw;
         position: relative;
     }
-    .paper iframe{
+    .paper iframe {
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        padding:0.25em;
-    
     }
-  }
+}
 
-.section-1{
+.section-1 {
     height: 100vh;
     text-align: center;
     color: white;
     background: url('../images/pexels-negative-space-160107.jpg');
-    background-size: cover ;
+    background-size: cover;
     background-attachment: fixed;
-    
 }
-.section-1 h2{
+
+.section-1 h2 {
     margin: 0px;
     padding-top: 15vh;
-    padding-bottom:1em;
+    padding-bottom: 1em;
 }
-.section-1 img{
+
+.section-1 img {
     height: 40vh;
     width: auto;
     border-radius: 10px;
 }
-.section-1 p{
+
+.section-1 p {
     font-size: 1.2em;
 }
-.section-1 a{
-    display:block;
+
+.section-1 a {
+    display: block;
     text-decoration: none;
     background-color: coral;
-    color:white;
-    padding:1em;
+    color: white;
+    padding: 1em;
     border-radius: 5px;
     width: 10vw;
     align-items: center;
     margin: 1em auto;
 }
-.section-1 a:hover{
+
+.section-1 a:hover {
     background-color: white;
     color: coral;
 }
 
-
-.section-2{
+.section-2 {
     height: 90vh;
     text-align: center;
     color: white;
     background: url('../images/pexels-negative-space-160107.jpg');
-    background-size: cover ;
+    background-size: cover;
 }
-.section-2 h2{
+
+.section-2 h2 {
     margin: 0px;
     padding-top: 12vh;
-    padding-bottom:1em;
+    padding-bottom: 1em;
 }
-.section-2 img{
+
+.section-2 img {
     height: 40vh;
     width: auto;
     border-radius: 10px;
 }
-.section-2 p{
+
+.section-2 p {
     font-size: 1.2em;
 }
-.section-2 a{
-    display:block;
+
+.section-2 a {
+    display: block;
     text-decoration: none;
     background-color: coral;
-    color:white;
-    padding:1em;
+    color: white;
+    padding: 1em;
     border-radius: 5px;
     width: 10vw;
     align-items: center;
     margin: 1em auto;
 }
-.section-2 a:hover{
+
+.section-2 a:hover {
     background-color: white;
     color: coral;
 }
 
-
-footer{
+footer {
     height: auto;
     background-color: crimson;
     text-align: center;
@@ -328,31 +362,27 @@ footer{
     border-top: 2px solid white;
 }
 
-footer p{
+footer p {
     margin-bottom: 1emlive;
 }
 
-.footer-nav-bar ul{
+.footer-nav-bar ul {
     list-style-type: none;
     padding-left: 0px;
-    margin:0px
+    margin: 0px
 }
-.footer-nav-bar ul li{
+
+.footer-nav-bar ul li {
     display: inline-block;
     vertical-align: middle;
 }
-.footer-nav-bar ul li a{
+
+.footer-nav-bar ul li a {
     text-decoration: none;
     color: white;
     padding-right: 1em;
 }
-.footer-nav-bar ul li a:hover{
+
+.footer-nav-bar ul li a:hover {
     border-bottom: white solid 1px;
 }
-
-
-
-
-
-  
-  
